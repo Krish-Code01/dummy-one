@@ -1,0 +1,35 @@
+body {
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.clr {
+  background-color: rebeccapurple;
+  width: 50vw;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.clr h1 {
+  color: white;
+}
+
+.cng {
+  margin: 100px;
+  background-color: red;
+  color: white;
+  height: 60px;
+  width: 100px;
+  margin-left: 400px;
+}
